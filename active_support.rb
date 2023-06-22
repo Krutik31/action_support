@@ -8,7 +8,6 @@ puts "\n".blank?          # true
 # .present? returns true is string is not blank
 puts ' '.present?           # false
 puts "\n".present?          # false
-
 # .presence returns the value itself if it is not blank otherwise returns nil.
 puts ' '.presence                   # nil
 puts 'hello ruby'.presence          # hello ruby
